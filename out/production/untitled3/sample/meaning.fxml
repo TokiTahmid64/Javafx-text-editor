@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="meaningpane" prefHeight="343.0" prefWidth="570.0" stylesheets="@meaning.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.meaning_">
+   <children>
+      <TextArea fx:id="mt" editable="false" layoutX="154.0" layoutY="172.0" prefHeight="121.0" prefWidth="354.0" wrapText="true">
+         <font>
+            <Font name="Kalpurush" size="17.0" />
+         </font></TextArea>
+      <Label layoutX="55.0" layoutY="172.0" text="Meaning" textFill="#dd0808">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="word" editable="false" layoutX="154.0" layoutY="100.0" prefHeight="44.0" prefWidth="354.0" wrapText="true">
+         <font>
+            <Font name="Kalpurush" size="17.0" />
+         </font></TextArea>
+      <Label layoutX="55.0" layoutY="100.0" prefHeight="28.0" prefWidth="56.0" text="Word">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="24.0" prefHeight="55.0" prefWidth="433.0" text="Meaning of the word you searched" textFill="#2c7514">
+         <font>
+            <Font name="Lucida Bright Demibold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

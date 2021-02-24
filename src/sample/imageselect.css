@@ -1,0 +1,10 @@
+#image
+{
+    -fx-font-size: 30px;
+    -fx-font-family: "Droid Sans";
+    -fx-animated: true;
+    -fx-background-color: rgba(200,100,100,0.8);
+    -fx-text-alignment: center;
+    -fx-border-radius: 15px;
+
+}
